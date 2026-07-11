@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0249)file:///Users/aqfinanzas/Library/Application%20Support/Claude/local-agent-mode-sessions/14780b9b-3168-4500-84bb-fa4337af3575/297b3031-5925-4957-9b8c-313ce97505ef/local_32d9068e-5351-41cf-8348-3c212bef146c/outputs/Landing%20-%20Sesion%201a1%20AQ.html -->
+<!-- saved from url=(0256)file:///Users/aqfinanzas/Library/Application%20Support/Claude/local-agent-mode-sessions/14780b9b-3168-4500-84bb-fa4337af3575/297b3031-5925-4957-9b8c-313ce97505ef/local_32d9068e-5351-41cf-8348-3c212bef146c/outputs/Landing%20-%20Sesion%201a1%20AQ.html#agenda -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,8 +36,12 @@ header.top{position:sticky;top:0;z-index:80;background:rgba(251,250,246,.92);bac
 
 /* hero */
 .hero{background:radial-gradient(1200px 600px at 80% -10%,#16255220,transparent),linear-gradient(180deg,#fff,var(--paper))}
-.hero .grid{display:grid;grid-template-columns:1fr;gap:26px;align-items:center;padding:46px 0 30px}
-@media(min-width:900px){.hero .grid{grid-template-columns:1.15fr .85fr;padding:64px 0 44px}}
+.hero .grid{display:grid;grid-template-columns:1fr;gap:30px;justify-items:center;text-align:center;padding:44px 0 30px}
+@media(min-width:900px){.hero .grid{padding:60px 0 42px}}
+.hero .htext{max-width:770px;margin:0 auto}
+.hero .cta-row{justify-content:center}
+.hero .stats{justify-content:center}
+.hero p.lead{margin-left:auto;margin-right:auto}
 .hero h1{font-size:2.15rem;margin:16px 0 14px}
 @media(min-width:900px){.hero h1{font-size:3.05rem}}
 .hero p.lead{font-size:1.12rem;color:#41496a;max-width:560px}
@@ -48,7 +52,7 @@ header.top{position:sticky;top:0;z-index:80;background:rgba(251,250,246,.92);bac
 .stat b{display:block;font-size:1.35rem;color:var(--orange)}
 .stat span{font-size:.76rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
 .hero .photo{position:relative;max-width:430px;margin:0 auto}
-.hero .photo::before{content:"";position:absolute;inset:-18px -18px 30px 20px;background:linear-gradient(150deg,#3ba4f233,#f5470b22);border-radius:32px;z-index:0}
+.hero .photo::before{content:"";position:absolute;inset:-16px -16px 26px -16px;background:linear-gradient(150deg,#3ba4f233,#f5470b22);border-radius:32px;z-index:0}
 .photo-frame{position:relative;z-index:1;border-radius:26px;overflow:hidden;border:6px solid #fff;box-shadow:var(--shadow);background:#fff}
 .photo-frame img{width:100%;display:block}
 .badge{position:absolute;left:-8px;bottom:20px;z-index:2;background:#fff;border-radius:16px;padding:11px 16px;box-shadow:var(--shadow-s);border:1px solid var(--line)}
@@ -128,52 +132,64 @@ footer .small{font-size:.8rem;opacity:.7;margin-top:12px;max-width:640px;margin-
 
 /* ===== MÓVIL ===== */
 @media(max-width:640px){
-  .wrap{padding:0 18px}
-  section{padding:38px 0}
-  .eyebrow{font-size:.72rem;padding:7px 13px}
-  .top .row{height:66px}
-  .top .brand img{height:40px}
-  .top .brand b{font-size:.98rem}
-  .top .brand span{font-size:.66rem}
-  .hero .grid{grid-template-columns:1fr;padding:26px 0 8px;gap:24px}
-  .hero h1{font-size:1.92rem;margin:14px 0 12px}
-  .hero p.lead{font-size:1.04rem}
-  .hero .cta-row{flex-direction:column;align-items:stretch;gap:12px;margin-top:20px}
-  .hero .cta-row .btn-cta{width:100%;padding:18px}
+  .wrap{padding:0 16px}
+  section{padding:30px 0}
+  .eyebrow{font-size:.68rem;padding:6px 12px;letter-spacing:.1em}
+  .top .row{height:60px}
+  .top .brand img{height:36px}
+  .top .brand b{font-size:.92rem}
+  .top .brand span{font-size:.63rem}
+  .hero .grid{grid-template-columns:1fr;padding:18px 0 4px;gap:18px}
+  .hero h1{font-size:1.72rem;margin:12px 0 10px;line-height:1.16}
+  .hero p.lead{font-size:.98rem}
+  .hero .htext{max-width:100%}
+  .hero .cta-row{flex-direction:column;align-items:stretch;gap:10px;margin-top:18px}
+  .hero .cta-row .btn-cta{width:100%;padding:17px;font-size:1.05rem}
   .hero .cta-row .mini{text-align:center}
-  .stats{gap:8px;margin-top:22px}
-  .stat{flex:1 1 30%;min-width:0;text-align:center;padding:12px 8px}
-  .stat b{font-size:1.15rem}
-  .stat span{font-size:.64rem}
-  .hero .photo{max-width:320px}
-  .hero .photo::before{inset:-10px -10px 22px 12px;border-radius:26px}
-  .photo-frame{border-width:5px;border-radius:22px}
-  .badge{left:2px;bottom:12px;padding:9px 13px}
-  .badge b{font-size:1.1rem}
-  .sec-head{margin-bottom:26px}
-  .sec-head h2{font-size:1.6rem}
-  .sec-head p{font-size:.98rem}
-  .cards{gap:13px}
-  .card{padding:20px}
-  .card .ic{width:46px;height:46px;font-size:1.3rem}
-  .card h3{font-size:1.08rem}
-  .steps{gap:13px}
-  .pill-list li{font-size:.96rem;padding:13px 14px}
-  .formcard{padding:26px 18px;border-radius:20px}
-  .formcard h2{font-size:1.42rem}
-  .formcard .sub{font-size:.96rem}
-  .field label{font-size:.88rem}
-  .field input,.field select{font-size:16px;padding:14px 13px}
-  .phone{grid-template-columns:116px 1fr;gap:8px}
-  .btn-submit{font-size:1.06rem;padding:17px}
-  .trustrow{gap:12px;font-size:.78rem}
-  .faq summary{font-size:.98rem;padding:16px 0}
-  footer{padding:34px 0}
+  .stats{gap:7px;margin-top:18px;width:100%}
+  .stat{flex:1 1 30%;min-width:0;text-align:center;padding:10px 6px;border-radius:13px}
+  .stat b{font-size:1.05rem}
+  .stat span{font-size:.6rem;letter-spacing:.02em}
+  .hero .photo{max-width:278px}
+  .hero .photo::before{inset:-10px -10px 20px -10px;border-radius:24px}
+  .photo-frame{border-width:5px;border-radius:20px}
+  .badge{left:2px;bottom:10px;padding:8px 12px;border-radius:13px}
+  .badge b{font-size:1rem}
+  .badge span{font-size:.6rem}
+  .sec-head{margin-bottom:20px}
+  .sec-head h2{font-size:1.46rem}
+  .sec-head p{font-size:.94rem}
+  .cards{gap:11px}
+  .card{padding:17px;border-radius:16px}
+  .card .ic{width:42px;height:42px;font-size:1.2rem;margin-bottom:10px}
+  .card h3{font-size:1.04rem}
+  .card p{font-size:.92rem}
+  .steps{gap:11px}
+  .step{padding:20px}
+  .pill-list{gap:9px}
+  .pill-list li{font-size:.92rem;padding:12px 13px;border-radius:12px}
+  .formcard{padding:24px 15px;border-radius:18px}
+  .formcard h2{font-size:1.34rem}
+  .formcard .sub{font-size:.92rem;margin-bottom:18px}
+  .field{margin-bottom:13px}
+  .field label{font-size:.86rem;margin-bottom:6px}
+  .field input,.field select{font-size:16px;padding:13px 12px;border-radius:11px}
+  .phone{grid-template-columns:112px 1fr;gap:8px}
+  .two{gap:11px}
+  .btn-submit{font-size:1.04rem;padding:16px}
+  .trustrow{gap:10px;font-size:.74rem}
+  .faq summary{font-size:.95rem;padding:15px 0}
+  .faq p{font-size:.92rem}
+  footer{padding:30px 0}
+  .mobicta{padding:10px 14px}
+  .mobicta .btn-cta{padding:15px;font-size:1rem}
 }
 @media(max-width:360px){
-  .hero h1{font-size:1.72rem}
-  .stat b{font-size:1.02rem}
-  .phone{grid-template-columns:104px 1fr}
+  .hero h1{font-size:1.56rem}
+  .stat b{font-size:.94rem}
+  .stat span{font-size:.55rem}
+  .phone{grid-template-columns:100px 1fr}
+  .formcard h2{font-size:1.24rem}
 }
 </style>
 </head>
@@ -185,7 +201,7 @@ footer .small{font-size:.8rem;opacity:.7;margin-top:12px;max-width:640px;margin-
 </div></header>
 
 <section class="hero"><div class="wrap grid">
-  <div>
+  <div class="htext">
     <span class="eyebrow">Sesión estratégica gratuita · 1 a 1</span>
     <h1>Construye tu <span class="accent">patrimonio</span> invirtiendo en la Bolsa de Nueva York — aunque empieces desde cero</h1>
     <p class="lead">Agenda una llamada 1 a 1 conmigo y diseñemos juntos, con el <b>Método RCR</b>, el plan para convertir tu excedente en inversión rentable y ponerlo a trabajar por ti.</p>
@@ -340,7 +356,7 @@ footer .small{font-size:.8rem;opacity:.7;margin-top:12px;max-width:640px;margin-
    CONFIGURA ESTAS 2 LÍNEAS (ver instrucciones):
    ============================================================ */
 const WHATSAPP_NUMERO = "573105104847";          // Tu número con código país, solo dígitos. Ej: 573001234567
-const GOOGLE_SHEET_URL = "";      // URL del Web App de Google Apps Script (pega la tuya)
+const GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbzZBvUItp_nOFVvbElmod8GjDALCKQh1ga1f1hrcefb7xCzebhpMziCSyvKEQ5mHVCHrQ/exec";      // URL del Web App de Google Apps Script (pega la tuya)
 /* ============================================================ */
 
 const paises = [
